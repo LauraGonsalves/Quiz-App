@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>quiz app</title>
+</head>
+
+<body>
+
+    <div class="container frst">
+        <div class="box">
+            <div class="title">
+                <h2>some rules of this quiz</h2>
+            </div>
+            <div class="des">
+                <div class="points">1. you will have 15s for each questions.</div>
+                <div class="points">2. once it is selsected it cant be undone.</div>
+                <div class="points">3. after time is over you cant select any options.</div>
+                <div class="points">4.you cant leave after starting the quiz.</div>
+            </div>
+            <div class="btn">
+                <button class="exit">exit</button>
+                <button class="start">start</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container scn notactv">
+        <div class="box">
+            <div class="quiz">
+                <div class="quizTitle">
+                    <h3>awesome quiz app</h3>
+                </div>
+                <div class="qus">
+                    <h1 id="question">ques</h1>
+                </div>
+                <div class="ans">
+                    <ul>
+                        <li class="answer-box">
+                            <input type="radio" name="answer" id="a" class="answer">
+                            <label for="a" id="a_text">ans</label>
+                        </li>
+
+                        <li class="answer-box">
+                            <input type="radio" name="answer" id="b" class="answer">
+                            <label for="b" id="b_text">ans</label>
+                        </li>
+
+                        <li class="answer-box">
+                            <input type="radio" name="answer" id="c" class="answer">
+                            <label for="c" id="c_text">ans</label>
+                        </li>
+
+                        <li class="answer-box">
+                            <input type="radio" name="answer" id="d" class="answer">
+                            <label for="d" id="d_text">ans</label>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <button type="submit" class=" submit">submit</button>
+        </div>
+    </div>
+
+
+    <div class="container point notactv">
+        <div class="box">
+            <div class="quizTitle">awesome quiz app</div>
+            <div class="score">
+                <p>congratulation!!! for finishing the quiz.you got <span id="score"> 3</span> out of 8</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

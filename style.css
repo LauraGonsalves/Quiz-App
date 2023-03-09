@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    background-color: rgb(115, 115, 218);;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.actv {
+    display: block;
+
+}
+
+.notactv {
+    display: none;
+}
+
+.box {
+    background: white;
+    width: 540px;
+    border-radius: 20px;
+
+}
+
+.title,
+.des {
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.points {
+    padding-bottom: .5rem;
+    font-size: large;
+    color: rgb(73, 71, 71);
+}
+
+.btn {
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exit,
+.start,
+.submit {
+    margin: .2rem;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 8px;
+}
+
+.exit {
+    border: 1px solid rgb(63, 63, 235);
+    color: rgb(63, 63, 235);
+    background: white;
+}
+
+.start,
+.submit {
+    border: 1px solid transparent;
+    color: white;
+    background: rgb(63, 63, 235);
+}
+
+.exit:hover {
+    background: rgb(63, 63, 235);
+    color: white;
+    cursor: pointer;
+
+}
+
+.start:hover,
+.submit:hover {
+    box-shadow: 2px 2px 10px rgb(63, 63, 235);
+    cursor: pointer;
+}
+
+.quizTitle {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.qus {
+    margin: 1.9rem;
+}
+
+.ans {
+    margin: 1.5rem;
+}
+
+.answer-box {
+    background-color: rgb(221, 221, 245);
+    border: 1px solid rgb(63, 63, 235);
+    margin: 1rem;
+    padding: 10px;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.answer-box:hover {
+    background: rgb(63, 63, 235);
+    cursor: pointer;
+    color: white;
+
+}
+
+.submit {
+    padding: 5px;
+    margin: 2rem;
+    float: right;
+}
+
+.score {
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.score>p {
+    font-size: large;
+}
+
+span {
+    color: rgb(63, 63, 235);
+
+}
+
+.point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
